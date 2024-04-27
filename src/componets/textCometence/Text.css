@@ -1,0 +1,42 @@
+.text_para {
+  padding: 3cqi;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+}
+.text_para > p {
+  font-size: clamp(0.2rem, 2.2cqi, 3.3rem);
+  text-align: center;
+  color: aliceblue;
+  text-align: justify;
+  /* ====Bellow for text backround======  */
+  background: linear-gradient(
+    90deg,
+    #ff00d2,
+    white,
+    #fed90f,
+    #00a2ff,
+    #09f1b8,
+    #ff00d2,
+    orangered
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 300%;
+  animation: gradient 8s ease-in-out infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  0% {
+    background-position: 0% 50%;
+  }
+}
+/* ====End text animation============ */

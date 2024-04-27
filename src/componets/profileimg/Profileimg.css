@@ -1,0 +1,119 @@
+.imgdiv {
+  max-width: 54.5%;
+  min-width: 40%;
+  max-height: 54.5%;
+  min-height: 40%;
+  margin-top: 10rem;
+  flex: 0.4;
+}
+
+#profileimage {
+  max-width: 100%;
+  min-width: 54%;
+  max-height: 100%;
+  /* background-color: green; */
+  /* border: 4px solid red; */
+  flex: 0.4;
+}
+.prof {
+  position: relative;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* text-align: center; */
+  /* max-width: 50%;
+  max-height: 50%; */
+  justify-content: stretch;
+  /* background-color: blueviolet; */
+  margin-top: -4.5rem;
+}
+.description {
+  /* background-color: rgb(224, 238, 15); */
+  font-size: 20px;
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  flex: 0.6;
+  max-width: 50cqi;
+}
+.topcontent_downloadbutton {
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 0.9rem;
+  margin-right: 0.8rem;
+  max-width: 15rem;
+  font-size: clamp(0.2rem, 1.2cqi, 1.3rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 10px;
+  max-width: 13rem;
+}
+
+.content {
+  margin-top: 25%;
+  margin-bottom: 2%;
+  border-block-end: 1rem solid;
+  /* border-image-slice: 100; */
+  border-image-source: linear-gradient(65deg, red, blue);
+  border-image-slice: 100;
+}
+.namediv > h1 {
+  color: orangered;
+  /* background: linear-gradient(185deg, orangered 50%, white 10%, blue 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-size: clamp(0.6rem, 2.6cqi, 2.5rem);
+}
+.namediv > p {
+  /* color: white; */
+  background: linear-gradient(185deg, orangered 50%, white 10%, blue 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: clamp(0.6rem, 1.8cqi, 2.5rem);
+}
+.topcontent_workbutton {
+  color: white;
+  border: 1px solid white !important;
+  background-color: transparent;
+  /* font-size: 18px; */
+  font-size: clamp(0.2rem, 1.2cqi, 1.3rem);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+  max-width: 12rem;
+}
+.topcontent_downloadbutton:hover {
+  color: #f64c07 !important;
+  background-color: white;
+  font-weight: 600px;
+  /* border: 1px solid #f64c07 !important; */
+}
+.btndiv {
+  /* background-color: rgb(152, 158, 158); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.namediv {
+  margin-top: 5rem;
+}
+.topcontent_workbutton:hover {
+  color: white !important;
+  background-color: orangered;
+  font-weight: 600px;
+}

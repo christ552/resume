@@ -1,0 +1,36 @@
+.headerbox_wraper {
+  position: relative;
+  background: url(../../images/backround.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 56vw;
+  box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.6);
+  margin-top: 0;
+}
+.main_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background-color: bisque; */
+}
+.main_info > h1 {
+  color: orangered;
+  text-transform: uppercase;
+}
+/* ====Typed text styling========== */
+/* .typed_text {
+  font-size: 2rem;
+  color: aquamarine;
+} */
+
+.profileimg_div {
+  margin-top: -7rem;
+}
+/* .divtree {
+  margin-left: 5rem;
+  background-color: rgb(145, 145, 36);
+  border: 3rem solid;
+  width: 30%;
+} */

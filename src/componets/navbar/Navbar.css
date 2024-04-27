@@ -1,0 +1,39 @@
+/* ==========for menu============= */
+
+.nav-link {
+  color: orangered;
+  /* ======responsive font sizing============== */
+  /* font-size: 1.5rem; */
+  /* font-size: 1.3cqi; */
+  /* font-size: 1.3vw; */
+  /* font-size: clamp(min-valu, current-valu, upper-valu); */
+  font-size: clamp(0.6rem, 1.2cqi, 1.5rem);
+
+  font-weight: 500;
+  letter-spacing: 0.175rem !important;
+  margin: 0.6rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-bottom: 0.5rem solid #212529;
+}
+
+.logo {
+  width: 8rem;
+}
+
+.navbar {
+  top: 0;
+  position: sticky;
+  z-index: 2000;
+}
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-bottom: 0.5rem solid red;
+  color: white;
+  background-color: brown;
+  border-radius: 0.1rem;
+}
+.navbar-nav > li > a:hover {
+  border-bottom: 0.5rem solid red;
+  color: white;
+}

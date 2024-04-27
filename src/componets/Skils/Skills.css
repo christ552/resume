@@ -1,0 +1,83 @@
+.skills-container {
+  margin: 4rem 0;
+  position: relative;
+  /* height: 35rem; */
+  height: 35cqi;
+}
+/* =========================Blue stated=========================== */
+/* .skills-container::after,
+.skills-container::before {
+  content: " ";
+  width: 28rem;
+  height: 28rem;
+  border-radius: 28.125rem;
+  background: rgb(90, 52, 203);
+  position: absolute;
+  z-index: 1;
+  filter: blur(200px);
+}
+.skills-container::after {
+  top: -3rem;
+  left: -5rem;
+}
+
+.skills-container::before {
+  background: rgb(122, 121, 121);
+  bottom: 0rem;
+  right: 0rem;
+} */
+/* ========================Blur finish============================ */
+.skills-container > h2 {
+  /* font-size: 2.5rem; */
+  font-size: clamp(0.9rem, 2.2cqi, 3.3rem);
+  font-weight: 700;
+  margin-bottom: 3.5cqi;
+  color: white;
+  /* margin-left: 8cqi;
+  padding-left: 8cqi; */
+  margin-top: -3cqi;
+  text-align: center;
+  align-items: center;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+.skills-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  /* ====me=== */
+  /* border: 3px solid black; */
+  background-color: black;
+  height: 45cqi;
+}
+.skills {
+  flex: 1;
+  display: grid;
+  grid-gap: 2cqi;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2cqi;
+}
+.skills-info {
+  flex: 1;
+  /* ==========me========== */
+  /* height: 42cqi; */
+}
+/* @media (max-width: 1025px) {
+} */
+
+/* @media (max-width: 760px) {
+  .skills-content {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .skills,
+  .skills-info {
+    width: 100%;
+    height: 100%;
+  }
+} */
+/* @media (max-width: 600px) {
+  .skills-container {
+    padding: 0;
+  }
+} */

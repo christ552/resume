@@ -1,0 +1,74 @@
+.skills-info-card {
+  background-color: black;
+  /* min-height: 23rem; */
+  min-height: 38cqi;
+  border-radius: 0.65rem;
+  border: 1.5px solid darkcyan;
+  backdrop-filter: blur(1rem);
+  margin: 2cqi;
+}
+
+.skills-info-card > h4 {
+  /* font-size: 3.2rem; */
+  font-size: clamp(0.9rem, 2.2cqi, 3.3rem);
+  font-weight: 500;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(
+    90deg,
+    rgb(198, 53, 1),
+    rgb(16, 16, 16),
+    rgb(0, 0, 83)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 2.5px solid orangered;
+}
+.skills-info-content {
+  padding: 1cqi;
+}
+.skill-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skill-info > p {
+  /* font-size: 1rem; */
+  font-size: clamp(0.9rem, 2cqi, 3rem);
+  font-weight: 600;
+  margin-top: 3cqi;
+}
+.skill-info > .percentage {
+  font-size: clamp(0.9rem, 2cqi, 4rem);
+}
+.skill-progress-bg {
+  width: 100%;
+  height: 0.5rem;
+  background: rgb(3, 136, 72);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+.skill-progress {
+  width: 0%;
+  height: 0.5rem;
+  background: linear-gradient(90deg, red, white, blue);
+  border-radius: 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+.items {
+  color: rgb(3, 236, 3);
+  /* font-size: clamp(0.9rem, 1cqi, 3rem); */
+}
+.percentage {
+  color: yellow;
+  text-align: right;
+  /* background-color: burlywood; */
+  /* height: clamp(1cqi, 1cqi, 1cqi); */
+  /* font-size: clamp(0.9rem, 2.2cqi, 3.3rem); */
+  /* margin-bottom: 1px; */
+  margin-top: 3rem;
+}
+.skill-info {
+  height: clamp(1cqi, 4cqi, 4cqi);
+}
