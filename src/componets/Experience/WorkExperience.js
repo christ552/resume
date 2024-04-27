@@ -37,7 +37,7 @@ const WorkExperience = () => {
 
   return (
     <section className="experience-container container">
-      <h4>Work experience</h4>
+      <h4>L'expérience professionnelle</h4>
       <div className="experience-content">
         {/* ======for arrow for the slider (carousel==========) */}
         <div className="arrow-right" onClick={slideRight}>
@@ -46,11 +46,13 @@ const WorkExperience = () => {
         <div className="arrow-left" onClick={slideLeft}>
           <span className="material-symbols-outlined">chevron_left</span>
         </div>
-        <Slider ref={sliderRef} {...setting}>
-          {WORK_EXPERIENCE.map((item) => (
-            <ExperienceCard key={item.title} details={item} />
-          ))}
-        </Slider>
+        <div className="slider container">
+          <Slider ref={sliderRef} {...setting}>
+            {WORK_EXPERIENCE.map((item) => (
+              <ExperienceCard key={item.title} details={item} />
+            ))}
+          </Slider>
+        </div>
       </div>
     </section>
   );

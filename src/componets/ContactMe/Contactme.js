@@ -100,17 +100,20 @@ const Contactme = () => {
       {/* ================================================== */}
 
       {/* ================================================== */}
-      <div className="contact-title">
-        <h1>Get in touch</h1>
-      </div>
+      <div className="contact-title">{/* <h1>Get in touch</h1> */}</div>
       <div className="contact-section">
         <div className="contact-left-section">
-          <h1>Let's talk</h1>
-          <p>
-            I'm currently avalable to talke on new project, so feel free to send
-            a message about anything that you want me to work on, you can
-            contact me anytime.
-          </p>
+          <div className="h1 container">
+            <h1>Let's talk</h1>
+          </div>
+          <div className="p container">
+            <p>
+              Je suis actuellement disponible pour entreprendre un nouveau
+              projet, alors n'hésitez pas à envoyer un message sur tout ce sur
+              quoi vous souhaitez que je travaille, vous pouvez me contacter à
+              tout moment.
+            </p>
+          </div>
           <div className="contact-details">
             <div className="contact-detail">
               <FontAwesomeIcon icon={faEnvelope} />
@@ -118,7 +121,11 @@ const Contactme = () => {
             </div>
             <div className="contact-detail">
               <FontAwesomeIcon icon={faLocationPin} />
-              <h4>8 Rue louise bourgeois, 94260 FRESNES, FRANCE</h4>
+              <h4>
+                8 Rue louise bourgeois,
+                <br /> 94260 FRESNES, <br />
+                FRANCE.
+              </h4>
             </div>
             <div className="contact-detail">
               <FontAwesomeIcon icon={faPhone} />
@@ -130,62 +137,64 @@ const Contactme = () => {
         {/* =========================================================== */}
 
         <div className="contact-right-section">
-          <form action="" className="contact-right" onSubmit={onSubmit}>
-            <label htmlFor="nom-sender">NOM</label>
-            <input
-              type="text"
-              placeholder="enter your nom"
-              name="nom"
-              className="input-nom"
-              id="nom-sender"
-              onChange={(e) => setNom(e.target.value)}
-            />
-            {errors && nom.length <= 0 ? <label>not to be empty</label> : ""}
-            {/* ----------------------------------- */}
-            <label htmlFor="prenom-sender">PRENOM</label>
-            <input
-              type="text"
-              placeholder="Entrez votre prénom"
-              name="prenom"
-              id="prenom-sender"
-              // onChange={handleChange}
-              onSubmit={handleChange}
-            />
-            {/* {errors.prenom && <span>{errors.prenom}</span>} */}
-            {/* ----------------------------------- */}
-            <label htmlFor="email-sender">Email</label>
-            <input
-              type="email"
-              name="mail"
-              id="email-sender"
-              placeholder="nom@mail.com"
-              // onChange={handleChange}
-            />
-            {/* {errors.mail && <span>{errors.mail}</span>} */}
-            {/* ----------------------------------- */}
-            <label htmlFor="numero_telephone">Numero telephone</label>
-            <input
-              type="tel"
-              name="telephone"
-              id="numero_telephone"
-              placeholder="+33 0 00 00 00 00"
-              // onChange={handleChange}
-            />
-            {/* {errors.telephone && <span>{errors.telephone}</span>} */}
-            {/* ----------------------------------- */}
-            <label htmlFor="message-sender">Write your message here</label>
-            <textarea
-              name="message"
-              id="message-sender"
-              cols="90"
-              rows="8"
-              placeholder="Enter your message"
-              // onChange={handleChange}
-            ></textarea>
-            <button type="submit" className="contact-submit">
-              Submit
-            </button>
-          </form>
+          <div className="container">
+            <form action="" className="contact-right" onSubmit={onSubmit}>
+              <label htmlFor="nom-sender">NOM</label>
+              <input
+                type="text"
+                placeholder="enter your nom"
+                name="nom"
+                className="input-nom"
+                id="nom-sender"
+                onChange={(e) => setNom(e.target.value)}
+              />
+              {errors && nom.length <= 0 ? <label>not to be empty</label> : ""}
+              {/* ----------------------------------- */}
+              <label htmlFor="prenom-sender">PRENOM</label>
+              <input
+                type="text"
+                placeholder="Entrez votre prénom"
+                name="prenom"
+                id="prenom-sender"
+                // onChange={handleChange}
+                onSubmit={handleChange}
+              />
+              {/* {errors.prenom && <span>{errors.prenom}</span>} */}
+              {/* ----------------------------------- */}
+              <label htmlFor="email-sender">Email</label>
+              <input
+                type="email"
+                name="mail"
+                id="email-sender"
+                placeholder="nom@mail.com"
+                // onChange={handleChange}
+              />
+              {/* {errors.mail && <span>{errors.mail}</span>} */}
+              {/* ----------------------------------- */}
+              <label htmlFor="numero_telephone">Numero telephone</label>
+              <input
+                type="tel"
+                name="telephone"
+                id="numero_telephone"
+                placeholder="+33 0 00 00 00 00"
+                // onChange={handleChange}
+              />
+              {/* {errors.telephone && <span>{errors.telephone}</span>} */}
+              {/* ----------------------------------- */}
+              <label htmlFor="message-sender">Write your message here</label>
+              <textarea
+                name="message"
+                id="message-sender"
+                cols="90"
+                rows="8"
+                placeholder="Enter your message"
+                // onChange={handleChange}
+              ></textarea>
+              <button type="submit" className="contact-submit">
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>

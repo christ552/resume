@@ -62,6 +62,19 @@
   /* ==========me========== */
   /* height: 42cqi; */
 }
+@media (max-width: 480px) {
+  .skills-container > h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  .skills-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills-info {
+    width: 27.9rem;
+  }
+}
 /* @media (max-width: 1025px) {
 } */
 

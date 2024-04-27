@@ -48,6 +48,14 @@
 .arrow-right {
   right: -2rem;
 }
+@media (max-width: 480px) {
+  .experience-content {
+    margin-top: 0rem;
+  }
+  .experience-container > h4 {
+    margin-top: 40rem;
+  }
+}
 
 @media (max-width: 1025px) {
   .arrow-left {

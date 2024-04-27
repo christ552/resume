@@ -117,3 +117,60 @@
   transform: scale(1.1);
   transition: 0.3s;
 }
+@media (max-width: 480px) {
+  .contact-title {
+    align-items: center;
+    text-align: center;
+    /* background-color: aqua; */
+  }
+  .contact-title > h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    background: linear-gradient(260deg, #df8908 -5.09%, #b415ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .h1 {
+    text-align: center;
+    margin-top: -1rem;
+  }
+  .h1 > h1 {
+    font-size: 5rem;
+    background-color: aquamarine;
+  }
+  .p {
+    width: 30rem;
+    /* background-color: #b415ff; */
+  }
+  .p > p {
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+    text-align: justify;
+    font-size: clamp(2rem, 2.2cqi, 3.3rem);
+  }
+  /* .contact-details { */
+  /* padding-left: 4px; */
+  /* padding-right: 4px; */
+  /* } */
+  .contact-detail {
+    padding-left: 4rem;
+    padding-right: 4px;
+  }
+  .contact-right-section {
+    width: 29rem;
+    /* background-color: #b415ff; */
+    margin-left: 5px;
+    margin-top: -5rem;
+  }
+  .contact-right > input {
+    width: 28rem;
+  }
+  .contact-right > textarea {
+    width: 28rem;
+  }
+}

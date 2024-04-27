@@ -39,7 +39,7 @@
     text-align: center;
     margin-top: 5rem;
 
-    border-block-start: 0.5rem solid;
+    border-block-start: 0.3rem solid;
     border-image-slice: 70;
   }
 }
@@ -50,10 +50,29 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 10rem;
 
-    border-block-start: 0.7rem solid;
-    border-image-slice: 90;
+    border-block-start: none;
+    /* border-block-start: 0.4rem solid; */
+    border-image-source: linear-gradient(65deg, red, blue);
+    /* border-image-slice: 100; */
+    height: 4rem;
+    /* background-color: blue; */
+  }
+  .tx {
+    margin-top: 83px;
+    font-size: 90%;
+    font-weight: bold;
+  }
+  .typed_text {
+    /* background-color: blueviolet; */
+    margin-bottom: 65px;
+    margin-top: -22px;
+    font-size: 40%;
+    /* font-weight: bold; */
+    width: -30px;
+    /* background-color: blueviolet; */
+    font-weight: 800;
   }
 }
 @media (max-width: 600px) {

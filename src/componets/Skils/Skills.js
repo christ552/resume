@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <section className="skills-container">
       <h2>Compétence technique</h2>
-      <div className="skills-content">
+      <div className="skills-content container">
         {/* <h2>This is Skills content</h2> */}
         <div className="skills">
           {SKILLS.map((item) => (

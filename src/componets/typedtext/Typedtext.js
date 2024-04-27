@@ -12,8 +12,11 @@ const Typedtext = () => {
           className="typed_text"
           strings={[
             "Développeur front-end",
+            "HTML, CSS, javascript",
+            "React, Angular",
             "Développeur back-end",
-            "Développer en PHP sur le framework Symfony",
+            "Développer en PHP",
+            "Le framework Symfony",
             "Forte autonomie dans le travail personnel",
             "Jira, Git/Github",
             "Capacité à travailler en équipe",

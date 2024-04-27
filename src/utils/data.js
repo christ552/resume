@@ -44,7 +44,7 @@ export const SKILLS = [
 // ============Bellow, work experiences==============================
 export const WORK_EXPERIENCE = [
   {
-    title: "Senior frontend developer at Createch informatique",
+    title: "Senior Développeur frontend chez Createch informatique",
     date: "Janvier 2023 - Au présent",
     resp: [
       "A dirigé une équipe de développeurs frontend dans la refonte du produit phare de l'entreprise, entraînant une augmentation de 30% de la satisfaction.",
@@ -57,7 +57,7 @@ export const WORK_EXPERIENCE = [
     ],
   },
   {
-    title: "Junior frontend developer at Digital Solution",
+    title: "Junior Développeur frontend chez Digital Solution",
     date: "Janvier 2022 - Décembre 2023",
     resp: [
       "Développement et maintenance de sites Web clients, garantissant des normes de haute qualité et une livraison des projets dans les délais.",
@@ -83,7 +83,7 @@ export const WORK_EXPERIENCE = [
     ],
   },
   {
-    title: "Senior frontend developer at Createch informatique",
+    title: "Senior Développeur frontend chez Createch informatique",
     date: "Janvier 2023 - Au présent",
     resp: [
       "A dirigé une équipe de développeurs frontend dans la refonte du produit phare de l'entreprise, entraînant une augmentation de 30% de la satisfaction.",

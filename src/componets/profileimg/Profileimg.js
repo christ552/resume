@@ -17,7 +17,9 @@ function Profileimg() {
 
       <div className="description">
         <div className="content">
-          <Typedtext />
+          <div className="typedtext">
+            <Typedtext />
+          </div>
           <div className="namediv">
             <h1>M Christy Justin LAMBERT</h1>
             <p>Développeur full stack</p>

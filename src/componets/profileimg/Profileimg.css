@@ -117,3 +117,30 @@
   background-color: orangered;
   font-weight: 600px;
 }
+@media (max-width: 480px) {
+  .content {
+    margin-top: 50%;
+    margin-bottom: 20%;
+    border-block-end: 0.5rem solid;
+    /* border-image-slice: 100; */
+    border-image-source: linear-gradient(65deg, red, blue);
+    border-image-slice: 100;
+    /* background-color: blueviolet; */
+    height: 13rem;
+  }
+  .namediv {
+    margin-top: 2.5rem;
+  }
+  .namediv h1 {
+    font-size: 15px;
+    font-weight: 900;
+  }
+  .namediv p {
+    font-size: 50%;
+    font-weight: 900;
+  }
+
+  .imgdiv {
+    margin-top: 8.7rem;
+  }
+}
