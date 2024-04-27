@@ -143,7 +143,11 @@
     background-color: aquamarine;
   }
   .p {
-    width: 30rem;
+    /* width: 25rem; */
+    /* width: 85%; */
+    /* font-size: clamp(0.2rem, 2.2cqi, 3.3rem); */
+    /* width: auto; */
+    width: 85%;
     /* background-color: #b415ff; */
   }
   .p > p {
@@ -164,13 +168,16 @@
   .contact-right-section {
     width: 29rem;
     /* background-color: #b415ff; */
-    margin-left: 5px;
+    margin-left: 2rem;
     margin-top: -5rem;
   }
   .contact-right > input {
-    width: 28rem;
+    /* width: 28rem; */
+    width: 85%;
   }
   .contact-right > textarea {
-    width: 28rem;
+    /* width: 28rem; */
+    /* min-width: 80%; */
+    width: 85%;
   }
 }
