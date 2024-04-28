@@ -20,7 +20,7 @@ const Typedtext = () => {
             "Forte autonomie dans le travail personnel",
             "Jira, Git/Github",
             "Capacité à travailler en équipe",
-            "Et capacité à apprendre rapidement",
+            "Capacité à apprendre rapidement",
           ]}
           typeSpeed={40}
           backSpeed={60}

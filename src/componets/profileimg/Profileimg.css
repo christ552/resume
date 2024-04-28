@@ -117,6 +117,7 @@
   background-color: orangered;
   font-weight: 600px;
 }
+
 @media (max-width: 480px) {
   .content {
     margin-top: 50%;
@@ -135,12 +136,23 @@
     font-size: 15px;
     font-weight: 900;
   }
-  .namediv p {
+  .namediv > p {
     font-size: 50%;
     font-weight: 900;
   }
 
   .imgdiv {
     margin-top: 8.7rem;
+  }
+}
+@media (max-width: 320px) {
+  .imgdiv > img {
+    margin-top: -21px;
+  }
+  .namediv {
+    margin-top: 0.7rem;
+  }
+  .btndiv > a {
+    margin-top: -15px;
   }
 }

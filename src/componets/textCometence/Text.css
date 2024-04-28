@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
 }
-.text_para > p {
+.text_para > .container > p {
   font-size: clamp(0.2rem, 2.2cqi, 3.3rem);
   text-align: center;
   color: aliceblue;
@@ -39,8 +39,54 @@
   }
 }
 /* ====End text animation============ */
+
+@media (max-width: 1281px) {
+  .text_para > p {
+    font-size: clamp(2.5rem, 3.9cqi, 4.9rem);
+  }
+}
+@media (max-width: 1025px) {
+  .text_para > p {
+    font-size: clamp(2rem, 3.9cqi, 4.9rem);
+  }
+}
+@media (max-width: 801px) {
+  .text_para > p {
+    font-size: clamp(2rem, 3.9cqi, 4.9rem);
+  }
+}
+@media (max-width: 600px) {
+  .text_para > p {
+    font-size: clamp(1.5rem, 3.9cqi, 4.9rem);
+  }
+}
 @media (max-width: 480px) {
   .text_para > p {
     font-size: clamp(1rem, 3.9cqi, 4.9rem);
+  }
+}
+@media (max-width: 320px) {
+  .text_para > .container > p {
+    font-size: clamp(1rem, 3cqi, 4rem);
+
+    /* ============= */
+    /* font-size: clamp(0.2rem, 2.2cqi, 3.3rem); */
+    text-align: center;
+    color: aliceblue;
+    text-align: justify;
+    /* ====Bellow for text backround======  */
+    background: linear-gradient(
+      40deg,
+      #ff00d2,
+      white,
+      #fed90f,
+      green,
+      #00a2ff,
+      #09f1b8
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    animation: gradient 8s ease-in-out infinite;
   }
 }
