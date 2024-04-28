@@ -15,17 +15,19 @@ const Skills = () => {
       <div className="skills-content container">
         {/* <h2>This is Skills content</h2> */}
         <div className="skills">
-          {SKILLS.map((item) => (
-            <SkillCard
-              key={item.title}
-              iconUrl={item.icon}
-              title={item.title}
-              isActive={selectedSkill.title === item.title}
-              onClick={() => {
-                handleSelectSkill(item);
-              }}
-            />
-          ))}
+          <div className="container">
+            {SKILLS.map((item) => (
+              <SkillCard
+                key={item.title}
+                iconUrl={item.icon}
+                title={item.title}
+                isActive={selectedSkill.title === item.title}
+                onClick={() => {
+                  handleSelectSkill(item);
+                }}
+              />
+            ))}
+          </div>
         </div>
         <div className="skills-info">
           <SkillsinfoCard

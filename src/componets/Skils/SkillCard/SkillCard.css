@@ -40,3 +40,32 @@
   height: auto;
   object-fit: contain;
 }
+@media (max-width: 1025px) {
+  .skills-card {
+    padding: 2rem;
+  }
+  .skills-card > span {
+    font-size: 1rem;
+  }
+  .skill-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .skill-icon > img {
+    width: 1.8rem;
+  }
+}
+@media (max-width: 768px) {
+  .skills-card > span {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 320px) {
+  .skills-card {
+    padding: 1.5rem;
+  }
+  .skill-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+}

@@ -75,6 +75,19 @@
     width: 24.9rem;
   }
 }
+@media (max-width: 320px) {
+  .skills > .container {
+    display: grid;
+    grid-gap: 1cqi;
+    grid-template-columns: repeat(2, 0.5fr);
+    margin: 0.5cqi;
+  }
+  .skills-container > h2 {
+    font-size: clamp(1.5rem, 2.2cqi, 3.3rem);
+    margin-top: -30px;
+    margin-bottom: 50px;
+  }
+}
 /* @media (max-width: 1025px) {
 } */
 

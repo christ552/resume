@@ -67,7 +67,7 @@
 }
 @media (max-width: 320px) {
   .text_para > .container > p {
-    font-size: clamp(1rem, 3cqi, 4rem);
+    font-size: clamp(1.3rem, 3cqi, 4rem);
 
     /* ============= */
     /* font-size: clamp(0.2rem, 2.2cqi, 3.3rem); */

@@ -16,7 +16,7 @@
   background: linear-gradient(
     90deg,
     rgb(198, 53, 1),
-    rgb(16, 16, 16),
+    rgb(6, 230, 114),
     rgb(0, 0, 83)
   );
   background-clip: text;
@@ -71,4 +71,21 @@
 }
 .skill-info {
   height: clamp(1cqi, 4cqi, 4cqi);
+}
+@media (max-width: 320px) {
+  .skills-info-card {
+    width: 70%;
+  }
+  .skills-info-card > h4 {
+    font-size: clamp(2rem, 2.2cqi, 3.3rem);
+    background: linear-gradient(
+      90deg,
+      rgb(198, 53, 1),
+      rgb(3, 172, 85),
+      rgb(4, 4, 143)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
