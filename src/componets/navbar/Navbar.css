@@ -81,6 +81,11 @@
     width: 479px;
   }
 }
+@media (max-width: 360px) {
+  .navbar {
+    width: 3590px;
+  }
+}
 @media (max-width: 320px) {
   .navbar {
     width: 320px;
