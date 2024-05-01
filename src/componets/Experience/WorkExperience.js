@@ -37,7 +37,9 @@ const WorkExperience = () => {
 
   return (
     <section className="experience-container container">
-      <h4>L'expérience professionnelle</h4>
+      <div className="h4">
+        <h4>L'expérience professionnelle</h4>
+      </div>
       <div className="experience-content">
         {/* ======for arrow for the slider (carousel==========) */}
         <div className="arrow-right" onClick={slideRight}>

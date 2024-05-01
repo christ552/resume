@@ -4,8 +4,8 @@
   justify-content: center;
   align-items: center;
 }
-.text_para > .container > p {
-  font-size: clamp(0.2rem, 2.2cqi, 3.3rem);
+.text_para > p {
+  font-size: clamp(0.3rem, 2.2cqi, 3.3rem);
   text-align: center;
   color: aliceblue;
   text-align: justify;
@@ -53,21 +53,39 @@
 @media (max-width: 801px) {
   .text_para > p {
     font-size: clamp(2rem, 3.9cqi, 4.9rem);
+    margin-left: 8px;
+  }
+  .text_para {
+    width: 48rem;
+    margin-left: 6px;
   }
 }
 @media (max-width: 600px) {
   .text_para > p {
     font-size: clamp(1.5rem, 3.9cqi, 4.9rem);
+    margin-left: 8px;
+  }
+  .text_para {
+    width: 36rem;
+    margin-left: 6px;
   }
 }
 @media (max-width: 480px) {
   .text_para > p {
     font-size: clamp(1rem, 3.9cqi, 4.9rem);
   }
+  .text_para {
+    width: 22rem;
+    margin-left: 5px;
+  }
 }
 @media (max-width: 320px) {
-  .text_para > .container > p {
-    font-size: clamp(1.3rem, 3cqi, 4rem);
+  .text_para {
+    width: 19rem;
+    margin-left: 5px;
+  }
+  .text_para > p {
+    font-size: clamp(1rem, 3cqi, 4rem);
 
     /* ============= */
     /* font-size: clamp(0.2rem, 2.2cqi, 3.3rem); */
@@ -88,5 +106,7 @@
     -webkit-text-fill-color: transparent;
     background-size: 300% 300%;
     animation: gradient 8s ease-in-out infinite;
+    margin-left: 3px;
+    margin-right: 3px;
   }
 }

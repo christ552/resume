@@ -19,6 +19,17 @@
 
 .logo {
   width: 8rem;
+  background-color: rgb(4, 54, 235);
+  border-radius: 50%;
+  background-image: linear-gradient(
+    45deg,
+    rgba(248, 2, 2, 0.8) 25%,
+    rgba(247, 248, 248, 0.8) 20%,
+    transparent 45%,
+    transparent 25%,
+    rgba(5, 101, 218, 0.8) 55%,
+    transparent 25%
+  );
 }
 
 .navbar {
@@ -36,4 +47,45 @@
 .navbar-nav > li > a:hover {
   border-bottom: 0.5rem solid red;
   color: white;
+}
+/* for logo animation */
+.navbar-brand {
+  animation: rotation 20s linear infinite;
+}
+@keyframes rotation {
+  from {
+    transform: rotateY(-360deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@media (max-width: 801px) {
+  .navbar {
+    width: 799px;
+  }
+}
+@media (max-width: 760px) {
+  .navbar {
+    width: 759px;
+  }
+}
+@media (max-width: 600px) {
+  .navbar {
+    width: 599px;
+  }
+}
+@media (max-width: 480px) {
+  .navbar {
+    width: 479px;
+  }
+}
+@media (max-width: 320px) {
+  .navbar {
+    width: 320px;
+  }
+  .navbar-brand > .logo {
+    width: 50px;
+  }
 }

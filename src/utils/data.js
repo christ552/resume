@@ -4,8 +4,9 @@ export const SKILLS = [
     icon: ".assets/images/frontend-icon.png",
 
     skills: [
-      { skill: "HTML", percentage: "80%" },
+      { skill: "HTML", percentage: "95%" },
       { skill: "CSS (Sass/SCSS)", percentage: "85%" },
+      { skill: "Animations SVG", percentage: "70%" },
       { skill: "Bootstrap", percentage: "85%" },
       { skill: "Javascript", percentage: "85%" },
       { skill: "React.js", percentage: "83%" },
@@ -27,12 +28,22 @@ export const SKILLS = [
     skills: [
       { skill: "Git & GitHub", percentage: "87%" },
       { skill: "VS Code", percentage: "88%" },
-      { skill: "Javascript", percentage: "85%" },
-      { skill: "React.js", percentage: "83%" },
+      { skill: "Figma", percentage: "85%" },
+      { skill: "Jira", percentage: "85%" },
+      { skill: "Confluence", percentage: "83%" },
     ],
   },
   {
-    title: "Compétences",
+    title: "La langue",
+    icon: ".assets/images/soft-skills-icon.png",
+    skills: [
+      { skill: "Français", percentage: "80%" },
+      { skill: "Anglais", percentage: "90%" },
+      { skill: "Tamoul", percentage: "95%" },
+    ],
+  },
+  {
+    title: "Autres compétences",
     icon: ".assets/images/soft-skills-icon.png",
     skills: [
       { skill: "Problem solving", percentage: "87%" },

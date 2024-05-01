@@ -74,7 +74,7 @@
 }
 @media (max-width: 320px) {
   .skills-info-card {
-    width: 70%;
+    width: 65%;
   }
   .skills-info-card > h4 {
     font-size: clamp(2rem, 2.2cqi, 3.3rem);

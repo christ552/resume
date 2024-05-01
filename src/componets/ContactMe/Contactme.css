@@ -183,4 +183,33 @@
 }
 
 @media (max-width: 320px) {
+  .h1 {
+    margin-top: -45px;
+  }
+  .h1 > h1 {
+    font-size: 55px;
+  }
+  .p {
+    width: 19rem;
+  }
+  .p > p {
+    font-size: 19px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .contact-detail {
+    width: 28rem;
+    margin-left: 39px;
+    margin-right: 10px;
+  }
+  .contact-detail > h4 {
+    font-size: 18px;
+  }
+  .contact-right-section {
+    width: 23rem;
+    margin-left: 49px;
+  }
+  .container {
+    margin-left: 21px;
+  }
 }
