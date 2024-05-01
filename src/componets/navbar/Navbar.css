@@ -81,6 +81,26 @@
     width: 479px;
   }
 }
+@media (max-width: 460px) {
+  .navbar {
+    width: 460px;
+  }
+}
+@media (max-width: 420px) {
+  .navbar {
+    width: 420px;
+  }
+}
+@media (max-width: 400px) {
+  .navbar {
+    width: 400px;
+  }
+}
+@media (max-width: 380px) {
+  .navbar {
+    width: 380px;
+  }
+}
 @media (max-width: 360px) {
   .navbar {
     width: 359px;
