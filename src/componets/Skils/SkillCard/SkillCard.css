@@ -19,7 +19,21 @@
   /* font-size: clamp(0.9rem, 1.7cqi, 3.3rem);*/
   font-weight: 500;
   /* color: orangered; */
-  color: rgb(231, 4, 247);
+  /* color: rgb(161, 79, 2); */
+  /* ================= */
+  background: linear-gradient(
+    40deg,
+    rgb(247, 1, 1),
+    #fed90f,
+    green,
+    #00a2ff,
+    #09f1b8
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 300%;
+  animation: gradient 8s ease-in-out infinite;
+  /* ====================== */
 }
 .skill-icon {
   width: 4rem;
