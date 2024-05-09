@@ -65,17 +65,17 @@
   display: flex;
   font-size: 3rem;
   gap: 2rem;
-  color: white;
+  color: rgb(255, 255, 255);
   align-items: center;
 }
 .contact-right-section {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   gap: 30px;
 }
 .contact-right label {
-  color: #d8d8d8;
+  color: #240140;
   font-size: 22px;
   font-weight: 500;
   margin-right: 4rem;
@@ -83,22 +83,22 @@
 }
 .contact-right input {
   border: none;
-  width: 700px;
+  width: 99%;
   height: 78px;
   padding-left: 20px;
   border-radius: 4px;
-  background: #32323c;
-  color: #a0a0a0;
+  background: #b4b4e2;
+  color: #2f2c2c;
   font-family: outfit;
   font-size: 30px;
 }
 .contact-right textarea {
-  max-width: 700px;
+  width: 99%;
   border: none;
   padding: 20px;
   border-radius: 4px;
-  background: #32323c;
-  color: #a0a0a0;
+  background: #b4b4e2;
+  color: #2f2c2c;
   font-family: outfit;
   font-size: 30px;
 }
@@ -117,11 +117,29 @@
   transform: scale(1.1);
   transition: 0.3s;
 }
-@media (max-width: 480px) {
+/* @media (max-width: 520px) {
+  .contact-right-section {
+   
+    width: 100%;
+  
+  }
+  .contact-right {
+    width: 3rem;
+    margin-left: -10rem;
+  }
+  .contact-right > input {
+  
+    width: 50%;
+  }
+  .contact-right > textarea {
+   
+    width: 50%;
+  }
+} */
+/* @media (max-width: 480px) {
   .contact-title {
     align-items: center;
     text-align: center;
-    /* background-color: aqua; */
   }
   .contact-title > h1 {
     font-size: 3rem;
@@ -143,12 +161,7 @@
     background-color: aquamarine;
   }
   .p {
-    /* width: 25rem; */
-    /* width: 85%; */
-    /* font-size: clamp(0.2rem, 2.2cqi, 3.3rem); */
-    /* width: auto; */
     width: 85%;
-    /* background-color: #b415ff; */
   }
   .p > p {
     padding-left: 4px;
@@ -157,32 +170,27 @@
     text-align: justify;
     font-size: clamp(2rem, 2.2cqi, 3.3rem);
   }
-  /* .contact-details { */
-  /* padding-left: 4px; */
-  /* padding-right: 4px; */
-  /* } */
   .contact-detail {
     padding-left: 4rem;
     padding-right: 4px;
   }
   .contact-right-section {
     width: 29rem;
-    /* background-color: #b415ff; */
     margin-left: 2rem;
     margin-top: -5rem;
   }
   .contact-right > input {
-    /* width: 28rem; */
     width: 85%;
   }
   .contact-right > textarea {
-    /* width: 28rem; */
-    /* min-width: 80%; */
-    width: 85%;
-  }
-}
 
-@media (max-width: 320px) {
+    width: 85%;
+        width: 28rem; 
+     min-width: 80%;
+  }
+} */
+
+/* @media (max-width: 320px) {
   .h1 {
     margin-top: -45px;
   }
@@ -212,4 +220,4 @@
   .container {
     margin-left: 21px;
   }
-}
+} */

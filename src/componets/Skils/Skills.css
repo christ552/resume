@@ -1,10 +1,9 @@
 .skills-container {
-  margin: 4rem 0;
+  /* margin: 4rem 0; */
   position: relative;
-  /* height: 35rem; */
-  height: 35cqi;
+  /* height: 65vh; */
 }
-/* =========================Blue stated=========================== */
+/* ===============Blue stated================ */
 /* .skills-container::after,
 .skills-container::before {
   content: " ";
@@ -27,28 +26,23 @@
   right: 0rem;
 } */
 /* ====================Blur finish======================= */
-.skills-container > h2 {
-  /* font-size: 2.5rem; */
+/* .skills-container > h2 {
   font-size: clamp(0.9rem, 2.2cqi, 3.3rem);
   font-weight: 700;
   margin-bottom: 3.5cqi;
   color: white;
-  /* margin-left: 8cqi;
-  padding-left: 8cqi; */
   margin-top: -3cqi;
   text-align: center;
   align-items: center;
   text-decoration: underline;
   text-decoration-style: double;
-}
+} */
 .skills-content {
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
   gap: 3rem;
-  /* ====me=== */
-  /* border: 3px solid black; */
-  background-color: black;
-  height: 45cqi;
+  height: 45cqi; */
+  /* background-color: black; */
 }
 .skills {
   flex: 1;
@@ -59,10 +53,16 @@
 }
 .skills-info {
   flex: 1;
-  /* ==========me========== */
-  /* height: 42cqi; */
+  /* height: 43cqi; */
 }
-@media (max-width: 480px) {
+/* @media (max-width: 500px) {
+  .skills-container > h2 {
+    font-size: clamp(1.5rem, 2.2cqi, 3.3rem);
+    margin-top: -30px;
+    margin-bottom: 50px;
+  }
+} */
+/* @media (max-width: 480px) {
   .skills-container > h2 {
     font-size: 2rem;
     margin-bottom: 3rem;
@@ -74,17 +74,55 @@
   .skills-info {
     width: 24.9rem;
   }
+} */
+/* ==== */
+/* @media (max-width: 460px) {
 }
-@media (max-width: 320px) {
+@media (max-width: 440px) {
+}
+@media (max-width: 420px) {
+}
+@media (max-width: 400px) {
+  .skills-container > h2 {
+    font-size: clamp(1.5rem, 2.2cqi, 3.3rem);
+    margin-top: -30px;
+    margin-bottom: 50px;
+  }
+} */
+/* @media (max-width: 380px) {
+  .skills-container > h2 {
+    font-size: clamp(1.5rem, 2.2cqi, 3.3rem);
+    margin-top: -30px;
+    margin-bottom: 50px;
+  }
+} */
+/* @media (max-width: 360px) {
+  .skills-container > h2 {
+    font-size: clamp(1.5rem, 2.2cqi, 3.3rem);
+    margin-top: -30px;
+    margin-bottom: 50px;
+  }
+} */
+/* @media (max-width: 340px) {
+  .skills-container > h2 {
+    font-size: clamp(1.5rem, 2.2cqi, 3.3rem);
+    margin-top: -30px;
+    margin-bottom: 50px;
+  }
+} */
+/* ==== */
+/* @media (max-width: 320px) {
   .skills {
     flex: 1;
     display: grid;
     grid-gap: 5cqi;
     grid-template-columns: repeat(2, 1fr);
-    margin: 2cqi;
-    width: 11rem;
-  }
-  .skills > .container {
+   
+    width: 100%;
+   
+    margin-left: -25px;
+  } */
+/* .skills > .container {
     display: grid;
     grid-gap: 1cqi;
     grid-template-columns: repeat(2, 0.5fr);
@@ -95,7 +133,7 @@
     margin-top: -30px;
     margin-bottom: 50px;
   }
-}
+} */
 /* @media (max-width: 1025px) {
 } */
 

@@ -1,11 +1,11 @@
 .text_para {
   padding: 3cqi;
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
   justify-content: center;
   align-items: center;
 }
 .text_para > p {
-  font-size: clamp(0.3rem, 2.2cqi, 3.3rem);
+  font-size: clamp(0.3rem, 3cqi, 3.3rem);
   text-align: center;
   color: aliceblue;
   text-align: justify;
@@ -23,6 +23,8 @@
   -webkit-text-fill-color: transparent;
   background-size: 300% 300%;
   animation: gradient 8s ease-in-out infinite;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 @keyframes gradient {
   0% {
@@ -35,64 +37,303 @@
     background-position: 0% 50%;
   }
   0% {
-    background-position: 0% 50%;
+    background-position: 50% 0%;
   }
 }
 /* ====End text animation============ */
 
-@media (max-width: 1281px) {
+/* @media (max-width: 1281px) {
   .text_para > p {
     font-size: clamp(2.5rem, 3.9cqi, 4.9rem);
+    margin-left: 3px;
+    margin-right: 3px;
   }
-}
-@media (max-width: 1025px) {
+} */
+/* @media (max-width: 1025px) {
   .text_para > p {
     font-size: clamp(2rem, 3.9cqi, 4.9rem);
+    margin-left: 3px;
+    margin-right: 3px;
   }
-}
-@media (max-width: 801px) {
+  .text_para {
+    width: 100%;
+    margin-left: 6px;
+  }
+} */
+/* @media (max-width: 991px) {
   .text_para > p {
     font-size: clamp(2rem, 3.9cqi, 4.9rem);
     margin-left: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
   }
   .text_para {
-    width: 48rem;
+    width: 100%;
     margin-left: 6px;
   }
-}
-@media (max-width: 600px) {
+} */
+/* @media (max-width: 981px) {
+  .text_para > p {
+    font-size: clamp(2rem, 3.9cqi, 4.9rem);
+    margin-left: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .text_para {
+    width: 100%;
+    margin-left: 6px;
+  }
+} */
+/* @media (max-width: 941px) {
+  .text_para > p {
+    font-size: clamp(2rem, 3.9cqi, 4.9rem);
+    margin-left: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .text_para {
+    width: 100%;
+    margin-left: 6px;
+  }
+} */
+/* @media (max-width: 901px) {
+  .text_para > p {
+    font-size: clamp(2rem, 3.9cqi, 4.9rem);
+    margin-left: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .text_para {
+    width: 100%;
+    margin-left: 6px;
+  }
+} */
+/* @media (max-width: 841px) {
+  .text_para > p {
+    font-size: clamp(2rem, 3.9cqi, 4.9rem);
+    margin-left: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .text_para {
+    width: 100%;
+    margin-left: 6px;
+  }
+} */
+/* @media (max-width: 801px) {
+  .text_para > p {
+    font-size: clamp(2rem, 3.9cqi, 4.9rem);
+    margin-left: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .text_para {
+    width: 100%;
+    margin-left: 6px;
+  }
+} */
+/* @media (max-width: 740px) {
   .text_para > p {
     font-size: clamp(1.5rem, 3.9cqi, 4.9rem);
     margin-left: 8px;
   }
   .text_para {
-    width: 36rem;
+    width: 100%;
     margin-left: 6px;
+    margin-right: 18px;
   }
-}
-@media (max-width: 480px) {
+} */
+/* @media (max-width: 700px) {
   .text_para > p {
+    font-size: clamp(1.5rem, 3.9cqi, 4.9rem);
+    margin-left: 8px;
+  }
+  .text_para {
+    width: 100%;
+    margin-left: 6px;
+    margin-right: 18px;
+  }
+} */
+/* @media (max-width: 660px) {
+  .text_para > p {
+    font-size: clamp(1.5rem, 3.9cqi, 4.9rem);
+    margin-left: 8px;
+  }
+  .text_para {
+    width: 100%;
+    margin-left: 6px;
+    margin-right: 18px;
+  }
+} */
+/* @media (max-width: 620px) {
+  .text_para > p {
+    font-size: clamp(1.5rem, 3.9cqi, 4.9rem);
+    margin-left: 8px;
+  }
+  .text_para {
+    width: 100%;
+    margin-left: 6px;
+    margin-right: 18px;
+  }
+} */
+/* @media (max-width: 600px) {
+  .text_para > p {
+    font-size: clamp(1.5rem, 3.9cqi, 4.9rem);
+    margin-left: 8px;
+  }
+  .text_para {
+    width: 100%;
+    margin-left: 6px;
+    margin-right: 16px;
+  }
+} */
+/* @media (max-width: 580px) {
+  .text_para {
+    width: 98%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .text_para > p {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+} */
+/* @media (max-width: 540px) {
+  .text_para {
+    width: 98%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .text_para > p {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+} */
+/* @media (max-width: 520px) {
+  .text_para {
+    width: 98%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .text_para > p {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+} */
+/* @media (max-width: 500px) {
+  .text_para {
+    width: 98%;
+    margin-left: 5px;
+  }
+  .text_para > p {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+} */
+/* @media (max-width: 480px) {
+  .text_para {
+    width: 100%;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 25px;
+  }
+  .text_para > p {
+    margin-left: 3px;
+    margin-right: 3px;
     font-size: clamp(1rem, 3.9cqi, 4.9rem);
   }
+} */
+/* @media (max-width: 460px) {
   .text_para {
-    width: 22rem;
-    margin-left: 5px;
-  }
-}
-@media (max-width: 320px) {
-  .text_para {
-    width: 19rem;
+    width: 98%;
     margin-left: 5px;
   }
   .text_para > p {
-    font-size: clamp(1rem, 3cqi, 4rem);
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+} */
+/* @media (max-width: 440px) {
+  .text_para {
+    width: 98%;
+    margin-left: 5px;
+  }
+  .text_para > p {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+} */
 
-    /* ============= */
-    /* font-size: clamp(0.2rem, 2.2cqi, 3.3rem); */
+/* @media (max-width: 420px) {
+  .text_para {
+    width: 420px;
+    margin-left: 5px;
+  }
+  .text_para > p {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+} */
+/* @media (max-width: 400px) {
+  .text_para {
+    width: 98%;
+    margin-left: 5px;
+  }
+  .text_para > p {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+} */
+/* @media (max-width: 380px) {
+  .text_para {
+    width: 98%;
+    margin-left: 5px;
+  }
+  .text_para > p {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+} */
+
+/* @media (max-width: 360px) {
+  .text_para {
+    width: 99%;
+    margin-left: 5px;
+    padding-left: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .text_para > p {
+    margin-left: 5px;
+    margin-right: 3px;
+  }
+} */
+/* @media (max-width: 340px) {
+  .text_para {
+    width: 98%;
+    margin-left: 5px;
+  }
+  .text_para > p {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+} */
+
+/* @media (max-width: 320px) {
+  .text_para {
+ 
+    width: 99%;
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text_para > p {
+    font-size: clamp(1.3rem, 3cqi, 4rem);
     text-align: center;
     color: aliceblue;
     text-align: justify;
-    /* ====Bellow for text backround======  */
+   
     background: linear-gradient(
       40deg,
       #ff00d2,
@@ -109,4 +350,4 @@
     margin-left: 3px;
     margin-right: 3px;
   }
-}
+} */

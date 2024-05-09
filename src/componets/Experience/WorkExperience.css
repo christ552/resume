@@ -7,16 +7,17 @@
   padding-right: 2rem;
   padding-bottom: 2rem;
   position: relative;
-  /* border: 5px solid red; */
+
   max-width: 90%;
   text-align: center;
 }
 .experience-container > .h4 {
   color: white;
-  font-size: 3rem;
+  /* font-size: 4vw; */
   font-weight: 600;
   margin-bottom: 3rem;
   /* ================= */
+
   text-decoration: underline;
   text-decoration-style: double;
 }
@@ -43,20 +44,20 @@
   font-weight: 700;
 }
 .arrow-left {
-  left: -2rem;
+  left: -1rem;
 }
 .arrow-right {
-  right: -2rem;
+  right: -1rem;
 }
-@media (max-width: 1025px) {
+/* @media (max-width: 1025px) {
   .arrow-left {
     left: 0rem;
   }
   .arrow-right {
     right: 0rem;
   }
-}
-@media (max-width: 768px) {
+} */
+/* @media (max-width: 768px) {
   .experience-container > .h4 {
     font-size: 1.5rem;
     margin-bottom: 2rem;
@@ -72,8 +73,8 @@
     margin-top: 38cqi;
     text-align: center;
   }
-}
-@media (max-width: 480px) {
+} */
+/* @media (max-width: 480px) {
   .experience-content {
     margin-top: 0rem;
   }
@@ -84,12 +85,12 @@
   .experience-container > .h4 > h4 {
     font-size: clamp(25px, 3cqi, 4rem);
   }
-}
-@media (max-width: 320px) {
+} */
+/* @media (max-width: 320px) {
   .experience-container > .h4 > h4 {
     font-size: clamp(15px, 3cqi, 4rem);
     font-weight: 900;
     margin-bottom: 2rem;
     margin-top: 42rem;
   }
-}
+} */

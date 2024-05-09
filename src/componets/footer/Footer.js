@@ -26,7 +26,6 @@ function Footer() {
         </div>
       </div>
       <Container>
-        {/* <h1>footer</h1> */}
         <div className="singleCol social-media-icons-white d-flex justify-content-evenly">
           <a href="https://www.facebook.com/" target="_blank">
             <FontAwesomeIcon icon={faFacebook} />

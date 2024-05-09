@@ -1,16 +1,14 @@
 .skills-card {
   border-radius: 0.65rem;
   border: 1.5px solid rgb(174, 47, 1);
-  padding: 2.5rem;
+  padding: 3vw;
   text-align: center;
-  background: rgb(9, 9, 9);
+  background: rgb(16, 15, 15);
   backdrop-filter: blur(1rem);
   position: relative;
   cursor: pointer;
   transition: all 0.3s ease;
   left: 3cqi;
-  /* ==me== */
-  border: 3px solid green;
 }
 .skills-card:hover,
 .skills-card.active {
@@ -18,9 +16,10 @@
 }
 .skills-card > span {
   /* font-size: 1.5rem; */
-  font-size: clamp(0.9rem, 1.7cqi, 3.3rem);
+  /* font-size: clamp(0.9rem, 1.7cqi, 3.3rem);*/
   font-weight: 500;
-  color: orangered;
+  /* color: orangered; */
+  color: rgb(231, 4, 247);
 }
 .skill-icon {
   width: 4rem;
@@ -30,7 +29,7 @@
   justify-content: center;
   background: rgb(195, 194, 194);
   border-radius: 0.65rem;
-  border: 1.5px solid orangered;
+  border: 1.5px solid rgb(145, 40, 2);
   position: absolute;
   top: -1rem;
   left: -1rem;
@@ -40,7 +39,7 @@
   height: auto;
   object-fit: contain;
 }
-@media (max-width: 1025px) {
+/* @media (max-width: 1025px) {
   .skills-card {
     padding: 2rem;
   }
@@ -60,12 +59,31 @@
     font-size: 0.9rem;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 500px) {
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 460px) {
+}
+@media (max-width: 440px) {
+}
+@media (max-width: 420px) {
+}
+@media (max-width: 400px) {
+}
+@media (max-width: 380px) {
+}
+@media (max-width: 360px) {
+}
+@media (max-width: 340px) {
+} */
+/* @media (max-width: 320px) {
   .skills-card {
     padding: 1.5rem;
+
   }
   .skill-icon {
     width: 3rem;
     height: 3rem;
   }
-}
+} */

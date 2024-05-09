@@ -37,7 +37,7 @@ const Contactme = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (nom.length == 0) {
+    if (nom.length === 0) {
       setErrors(true);
     }
     const validationErrors = {};
@@ -97,16 +97,14 @@ const Contactme = () => {
 
   return (
     <section className="contactme-container container">
-      {/* ================================================== */}
-
-      {/* ================================================== */}
-      <div className="contact-title">{/* <h1>Get in touch</h1> */}</div>
-      <div className="contact-section">
-        <div className="contact-left-section">
-          <div className="h1 container">
+      {/* ============================ */}
+      {/* ============================ */}
+      <div className="contact-section row">
+        <div className="contact-left-section col">
+          <div className="h1 row">
             <h1>Let's talk</h1>
           </div>
-          <div className="p container">
+          <div className="p row">
             <p>
               Je suis actuellement disponible pour entreprendre un nouveau
               projet, alors n'hésitez pas à envoyer un message sur tout ce sur
@@ -114,12 +112,12 @@ const Contactme = () => {
               tout moment.
             </p>
           </div>
-          <div className="contact-details">
-            <div className="contact-detail">
+          <div className="contact-details row">
+            <div className="contact-detail col">
               <FontAwesomeIcon icon={faEnvelope} />
               <h4>christiyustin@gmail.com</h4>
             </div>
-            <div className="contact-detail">
+            <div className="contact-detail col">
               <FontAwesomeIcon icon={faLocationPin} />
               <h4>
                 8 Rue louise bourgeois,
@@ -127,74 +125,76 @@ const Contactme = () => {
                 FRANCE.
               </h4>
             </div>
-            <div className="contact-detail">
+            <div className="contact-detail col">
               <FontAwesomeIcon icon={faPhone} />
               <h4>+33 6 52 98 45 88</h4>
             </div>
           </div>
         </div>
-        {/* ======================form start=========================== */}
-        {/* =========================================================== */}
+        {/* =======form start=========== */}
+        {/* ============================ */}
 
-        <div className="contact-right-section">
-          <div className="container">
-            <form action="" className="contact-right" onSubmit={onSubmit}>
-              <label htmlFor="nom-sender">NOM</label>
-              <input
-                type="text"
-                placeholder="enter your nom"
-                name="nom"
-                className="input-nom"
-                id="nom-sender"
-                onChange={(e) => setNom(e.target.value)}
-              />
-              {errors && nom.length <= 0 ? <label>not to be empty</label> : ""}
-              {/* ----------------------------------- */}
-              <label htmlFor="prenom-sender">PRENOM</label>
-              <input
-                type="text"
-                placeholder="Entrez votre prénom"
-                name="prenom"
-                id="prenom-sender"
-                // onChange={handleChange}
-                onSubmit={handleChange}
-              />
-              {/* {errors.prenom && <span>{errors.prenom}</span>} */}
-              {/* ----------------------------------- */}
-              <label htmlFor="email-sender">Email</label>
-              <input
-                type="email"
-                name="mail"
-                id="email-sender"
-                placeholder="nom@mail.com"
-                // onChange={handleChange}
-              />
-              {/* {errors.mail && <span>{errors.mail}</span>} */}
-              {/* ----------------------------------- */}
-              <label htmlFor="numero_telephone">Numero telephone</label>
-              <input
-                type="tel"
-                name="telephone"
-                id="numero_telephone"
-                placeholder="+33 0 00 00 00 00"
-                // onChange={handleChange}
-              />
-              {/* {errors.telephone && <span>{errors.telephone}</span>} */}
-              {/* ----------------------------------- */}
-              <label htmlFor="message-sender">Write your message here</label>
-              <textarea
-                name="message"
-                id="message-sender"
-                cols="90"
-                rows="8"
-                placeholder="Enter your message"
-                // onChange={handleChange}
-              ></textarea>
-              <button type="submit" className="contact-submit">
-                Submit
-              </button>
-            </form>
-          </div>
+        <div className="contact-right-section col">
+          <form
+            action=""
+            className="form-control   contact-right"
+            onSubmit={onSubmit}
+          >
+            <label htmlFor="nom-sender">NOM</label>
+            <input
+              type="text"
+              placeholder="enter your nom"
+              name="nom"
+              className="input-nom"
+              id="nom-sender"
+              onChange={(e) => setNom(e.target.value)}
+            />
+            {errors && nom.length <= 0 ? <label>not to be empty</label> : ""}
+            {/* --------------------- */}
+            <label htmlFor="prenom-sender">PRENOM</label>
+            <input
+              type="text"
+              placeholder="Entrez votre prénom"
+              name="prenom"
+              id="prenom-sender"
+              // onChange={handleChange}
+              onSubmit={handleChange}
+            />
+            {/* {errors.prenom && <span>{errors.prenom}</span>} */}
+            {/* ----------------------------------- */}
+            <label htmlFor="email-sender">Email</label>
+            <input
+              type="email"
+              name="mail"
+              id="email-sender"
+              placeholder="nom@mail.com"
+              // onChange={handleChange}
+            />
+            {/* {errors.mail && <span>{errors.mail}</span>} */}
+            {/* ----------------------------------- */}
+            <label htmlFor="numero_telephone">Numero telephone</label>
+            <input
+              type="tel"
+              name="telephone"
+              id="numero_telephone"
+              placeholder="+33 0 00 00 00 00"
+              // onChange={handleChange}
+            />
+            {/* {errors.telephone && <span>{errors.telephone}</span>} */}
+            {/* ----------------------------------- */}
+            <label htmlFor="message-sender">Write your message here</label>
+            <textarea
+              name="message"
+              id="message-sender"
+              cols="90"
+              rows="8"
+              placeholder="Enter your message"
+              // onChange={handleChange}
+            ></textarea>
+            <button type="submit" className="contact-submit">
+              Submit
+            </button>
+          </form>
         </div>
       </div>
     </section>

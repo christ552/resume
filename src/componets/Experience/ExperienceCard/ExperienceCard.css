@@ -42,14 +42,15 @@
   left: -1.3rem;
   top: 0.35rem;
 }
-@media (max-width: 320px) {
+
+/* @media (max-width: 320px) {
   .work-experience-card > .row > h4 {
     font-size: 13px;
     font-weight: 800;
     margin-bottom: 0.7rem;
     font-family: Georgia, "Times New Roman", Times, serif;
   }
-}
+} */
 /* @media (max-width: 760px) {
   .work-experience-card {
     margin: 0;

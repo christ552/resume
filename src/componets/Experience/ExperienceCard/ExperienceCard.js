@@ -3,12 +3,12 @@ import "./ExperienceCard.css";
 
 const ExperienceCard = ({ details }) => {
   return (
-    <div className="work-experience-card container">
+    <div className="work-experience-card container-fluide">
       <div className="row">
-        <h4>{details.title}</h4>
+        <h4 className="row">{details.title}</h4>
 
         <div className="work-duration">{details.date}</div>
-        <ul>
+        <ul className="col">
           {details.resp.map((text) => (
             <li key={text}>{text}</li>
           ))}

@@ -7,17 +7,12 @@ import Profileimg from "../profileimg/Profileimg";
 const Headerbox = () => {
   return (
     <>
-      <div className="headerbox_wraper">
-        {/* <div className="divtree"></div> */}
-
-        <div className="main_info">{/* <Typedtext /> */}</div>
-
-        <div className="divfour">
+      <div className="row headerbox_wraper container-fluid">
+        <div className="col divfour container-fluid">
           <Profileimg />
         </div>
       </div>
     </>
   );
 };
-
 export default Headerbox;

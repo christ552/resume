@@ -28,6 +28,7 @@ export const SKILLS = [
     skills: [
       { skill: "Git & GitHub", percentage: "87%" },
       { skill: "VS Code", percentage: "88%" },
+      { skill: "WordPress", percentage: "90%" },
       { skill: "Figma", percentage: "85%" },
       { skill: "Jira", percentage: "85%" },
       { skill: "Confluence", percentage: "83%" },
