@@ -17,14 +17,14 @@ import {
 
 function Footer() {
   return (
-    <div className="footer_main">
-      <div className="flootercontainer">
+    <div className="footer_main container-fluide">
+      {/* <div className="flootercontainer">
         <div className="socialIcon">
           <a href="">
             <i className="fa-brands fa-facebook"></i>
           </a>
         </div>
-      </div>
+      </div> */}
       <Container>
         <div className="singleCol social-media-icons-white d-flex justify-content-evenly">
           <a href="https://www.facebook.com/" target="_blank">

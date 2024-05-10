@@ -10,43 +10,43 @@ const Skills = () => {
     setSelectedSkill(data);
   };
   return (
-    <section className="skills-container mb-sm-5">
+    <section className="skills-container container">
       {/* ======================= */}
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <h2 className="text-white text-center fs-1">
-              Compétence technique
-            </h2>
-          </div>
+      {/* <div className="container"> */}
+      <div className="row">
+        <div className="col">
+          <h2 className="text-white text-center fs-1 my-5 text-decoration-underline">
+            Compétence technique
+          </h2>
         </div>
       </div>
+      {/* </div> */}
       {/* ============================ */}
       <div className="skills-content row">
-        <div className="row">
-          <div className="skills col-xs-12 col-sm-12 col-md-12 col-lg-6 ">
-            {SKILLS.map((item) => (
-              <SkillCard
-                key={item.title}
-                iconUrl={item.icon}
-                title={item.title}
-                isActive={selectedSkill.title === item.title}
-                onClick={() => {
-                  handleSelectSkill(item);
-                }}
-              />
-            ))}
-          </div>
-          <div className="skills-info col-sx-12 col-sm-12 col-md-6">
-            <SkillsinfoCard
-              heading={selectedSkill.title}
-              skills={selectedSkill.skills}
+        {/* <div className="row"> */}
+        <div className="skills col">
+          {SKILLS.map((item) => (
+            <SkillCard
+              key={item.title}
+              iconUrl={item.icon}
+              title={item.title}
+              isActive={selectedSkill.title === item.title}
+              onClick={() => {
+                handleSelectSkill(item);
+              }}
             />
-          </div>
-          {/* <div className="col">
+          ))}
+        </div>
+        <div className="skills-info col">
+          <SkillsinfoCard
+            heading={selectedSkill.title}
+            skills={selectedSkill.skills}
+          />
+        </div>
+        {/* <div className="col">
             <WorkExperience />
           </div> */}
-        </div>
+        {/* </div> */}
       </div>
     </section>
   );

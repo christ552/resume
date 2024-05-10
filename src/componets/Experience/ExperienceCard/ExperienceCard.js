@@ -4,7 +4,7 @@ import "./ExperienceCard.css";
 const ExperienceCard = ({ details }) => {
   return (
     <div className="work-experience-card container-fluide">
-      <div className="row">
+      <div className="row row-experience">
         <h4 className="row">{details.title}</h4>
 
         <div className="work-duration">{details.date}</div>

@@ -4,17 +4,13 @@
   border-radius: 0.65rem;
   border: 1.5px solid #6751b9;
   padding: 1.9rem;
-  /* margin: rem 0rem; */
   max-width: 53rem;
-  /* width: min(90% 1000px); */
+  height: 38rem;
 }
-
 .work-experience-card > h4 {
   font-size: 1.05rem;
   font-weight: 600;
   margin-bottom: 0.7rem;
-  /* text-align: center;
-  justify-content: center; */
 }
 .work-duration {
   display: inline-block;
@@ -42,23 +38,3 @@
   left: -1.3rem;
   top: 0.35rem;
 }
-
-/* @media (max-width: 320px) {
-  .work-experience-card > .row > h4 {
-    font-size: 13px;
-    font-weight: 800;
-    margin-bottom: 0.7rem;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-} */
-/* @media (max-width: 760px) {
-  .work-experience-card {
-    margin: 0;
-  }
-  .work-experience-card h4 {
-    font-size: 1rem;
-  }
-  .work-experience-card ul li {
-    font-size: 0.95rem;
-  }
-} */

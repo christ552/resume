@@ -38,9 +38,8 @@
   background-color: orangered;
   color: white;
   border: none;
-  width: 10rem;
+  width: 9rem;
   height: 3rem;
-  /* font-size: clamp(0.4rem, 1.2cqi, 1.3rem); */
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.2rem;
@@ -62,22 +61,22 @@
   justify-content: center;
   align-items: center;
 }
-.namediv > h1 {
+.row > h1 {
   color: orangered;
   /* background: linear-gradient(185deg, orangered 50%, white 10%, blue 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
   /* font-size: clamp(0.6rem, 2.6cqi, 2.5rem); */
-  font-size: 2vw;
+  font-size: 3vw;
   font-weight: 800;
 }
-.namediv > p {
+.row > p {
   background: linear-gradient(185deg, orangered 50%, white 10%, blue 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: clamp(0.6rem, 1.8cqi, 2.5rem);
+  font-size: clamp(2vw, 1.8cqi, 2.5rem);
 }
 .name {
   justify-content: center;
@@ -94,11 +93,12 @@
   font-weight: 700;
   cursor: pointer;
   border-radius: 10px;
-  width: 8rem;
+  width: 6rem;
   align-items: center;
   justify-content: center;
   /* width: 12rem; */
   height: 3rem;
+  margin-left: 0rem;
 }
 button > .topcontent_downloadbutton:hover {
   color: #f64c07 !important;
@@ -106,22 +106,18 @@ button > .topcontent_downloadbutton:hover {
   font-weight: 600px;
 }
 .btndiv {
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 1rem;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* text-align: center; */
+  /* background-color: aquamarine; */
 }
-/* .namediv {
-  margin-top: 2rem;
-} */
+
 .topcontent_workbutton:hover {
   color: white !important;
   background-color: orangered;
   font-weight: 600px;
 }
-.btn {
-  margin-top: 2px;
-}
+
 /* @media (max-width: 1025px) {
   .description {
     margin-top: 2rem;
