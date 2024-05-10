@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.d9ece5ba.css",
-    "main.js": "/resume/static/js/main.fac996bf.js",
+    "main.css": "/resume/static/css/main.43f34a83.css",
+    "main.js": "/resume/static/js/main.21cf1223.js",
     "static/js/453.1407b060.chunk.js": "/resume/static/js/453.1407b060.chunk.js",
     "static/media/material-symbols-rounded.woff2": "/resume/static/media/material-symbols-rounded.d5a1a68e51d8358d153a.woff2",
     "static/media/material-symbols-outlined.woff2": "/resume/static/media/material-symbols-outlined.4cdc86732effd9fc70c9.woff2",
@@ -14,12 +14,12 @@
     "static/media/slick.ttf": "/resume/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/resume/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/resume/index.html",
-    "main.d9ece5ba.css.map": "/resume/static/css/main.d9ece5ba.css.map",
-    "main.fac996bf.js.map": "/resume/static/js/main.fac996bf.js.map",
+    "main.43f34a83.css.map": "/resume/static/css/main.43f34a83.css.map",
+    "main.21cf1223.js.map": "/resume/static/js/main.21cf1223.js.map",
     "453.1407b060.chunk.js.map": "/resume/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9ece5ba.css",
-    "static/js/main.fac996bf.js"
+    "static/css/main.43f34a83.css",
+    "static/js/main.21cf1223.js"
   ]
 }
